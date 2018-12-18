@@ -1,0 +1,119 @@
+body,
+html {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+body {
+   background: #2D1308;
+}
+
+.room {
+   position: relative;
+   height: 900px;
+   margin: 0px auto;
+}
+
+.lamp {
+   background-image: url(img/lamp2.png);
+   width: 89px;
+   height: 182px;
+   position: relative;
+   top: 0%;
+   left: 48%;
+}
+
+.rope {
+   background-image: url(img/rope2.png);
+   height: 132px;
+   width: 32px;
+   position: absolute;
+   top: 43%;
+   left: 64.3%;
+}
+
+#girl {
+   position: absolute;
+   bottom: 26%;
+   left: 39%;
+}
+
+#cockroach {
+   position: absolute;
+   top: 35%;
+   left: 6%;
+   -webkit-transform: rotate(20deg);
+   -ms-transform: rotate(20deg); 
+   transform: rotate(20deg);
+}
+#cockroach1 {
+   position: absolute;
+   top: 5%;
+   left: 6%;
+   -webkit-transform: rotate(290deg);
+   -ms-transform: rotate(290deg); 
+   transform: rotate(290deg);
+}
+#cockroach2 {
+   position: absolute;
+   top: 10%;
+   right: 5%;
+   -webkit-transform: rotate(300deg);
+   -ms-transform: rotate(300deg); 
+   transform: rotate(300deg);
+}
+#cockroach3 {
+   position: absolute;
+   left: 30%;
+   bottom: 27%;
+   -webkit-transform: rotate(100deg);
+   -ms-transform: rotate(100deg); 
+   transform: rotate(100deg);
+}
+#cockroach4 {
+   position: absolute;
+   bottom: 30%;
+   right: 2%;
+   -webkit-transform: rotate(40deg);
+   -ms-transform: rotate(40deg); 
+   transform: rotate(40deg);
+}
+#cockroach5 {
+   position: absolute;
+   top: 25%;
+   left: 27%;
+   -webkit-transform: rotate(90deg);
+   -ms-transform: rotate(90deg); 
+   transform: rotate(190deg);
+}
+#cockroach6 {
+   position: absolute;
+   top: 2%;
+   right: 34%;
+}
+#cockroach7 {
+   position: absolute;
+   top: 0%;
+   left: 32%;
+   -webkit-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg); 
+   transform: rotate(-90deg);
+}
+#cockroach8 {
+   position: absolute;
+   bottom: 30%;
+   right: 32%;
+   -webkit-transform: rotate(30deg);
+   -ms-transform: rotate(30deg); 
+   transform: rotate(30deg);
+}
+#cockroach9 {
+   position: absolute;
+   bottom: 57%;
+   right: 26%;
+   -webkit-transform: rotate(250deg);
+   -ms-transform: rotate(250deg); 
+   transform: rotate(250deg);
+}
